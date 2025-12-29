@@ -1,5 +1,3 @@
-import java.util.*;
-
 class exercicio2 {
     public class ListNode {
         int val;
