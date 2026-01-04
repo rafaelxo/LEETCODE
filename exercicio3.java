@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class exercicio3 {
     public int lengthOfLongestSubstring(String s) {
         int[] last = new int[128];
