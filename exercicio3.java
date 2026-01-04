@@ -3,14 +3,13 @@ import java.util.Arrays;
 class exercicio3 {
     public int lengthOfLongestSubstring(String s) {
         int[] last = new int[128];
-        Arrays.fill(last, -1);
-        int resp = 0;
-        int i = 0;
-        for (int j = 0; j < s.length(); j++) {
-            if (last[s.charAt(j)] >= i) i = last[s.charAt(j)] + 1;
-            last[s.charAt(j)] = j;
-            resp = Math.max(resp, j - i + 1);
+        int j = 0, max = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            j = Math.max(j, last[c]);
+            last[c] = i + 1;
+            max = Math.max(max, i - j + 1);
         }
-        return resp;
+        return max;
     }
 }
