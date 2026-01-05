@@ -34,7 +34,7 @@ As soluções foram desenvolvidas com foco em:
 ### 📌 Soluções em Java
 
 | # | Problema | Dificuldade | Tópicos | Arquivo |
-|:-:|: ---------|:-----------:|:--------|:--------|
+|:-:|:---------|:-----------:|:--------|:--------|
 | 1 | **Two Sum** | 🟢 Easy | Arrays, Hash Table | [exercicio1.java](exercicio1.java) |
 | 2 | **Add Two Numbers** | 🟡 Medium | Linked List, Math | [exercicio2.java](exercicio2.java) |
 | 3 | **Longest Substring Without Repeating Characters** | 🟡 Medium | Sliding Window, Hash Table | [exercicio3.java](exercicio3.java) |
