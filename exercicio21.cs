@@ -1,4 +1,4 @@
-public class Solution {
+public class exercicio21 {
     public ListNode MergeTwoLists(ListNode list1, ListNode list2) {
         ListNode resp = new ListNode(0);
         ListNode curr = resp;
