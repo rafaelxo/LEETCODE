@@ -6,6 +6,7 @@ public class Solution {
         }
         return s;
     }
+
     public ListNode ReverseKGroup(ListNode head, int k) {
         if (head == null || k <= 1) return head;
         ListNode resp = new ListNode(0, head);

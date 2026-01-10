@@ -15,6 +15,7 @@ public class Solution {
         curr.next = a ?? b;
         return resp.next;
     }
+
     public ListNode MergeKLists(ListNode[] lists) {
         if (lists == null || lists.Length == 0) return null;
         int n = lists.Length;
