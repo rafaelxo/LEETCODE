@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💻 LEETCODE
+# 💻 LEETCODE!
 
 <p align="center">
   <img src="https://img.shields.io/github/languages/top/rafaelxo/LEETCODE?color=blue" alt="Top Language">
