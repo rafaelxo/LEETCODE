@@ -1,6 +1,7 @@
 class Solution {
 public:
     int row[9] = {}, col[9] = {}, box[9] = {};
+
     bool dfs(vector<vector<char>>& board) {
         int r = -1, c = -1, minChoices = 10;
         int mask = 0;
