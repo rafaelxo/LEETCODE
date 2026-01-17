@@ -105,7 +105,6 @@ O repositório utiliza **múltiplas linguagens de programação**:
 
 ## 👤 Autor
 
-**Rafael**
 [![GitHub](https://img.shields.io/badge/GitHub-rafaelxo-181717?style=for-the-badge&logo=github)](https://github.com/rafaelxo)
 
 ---
