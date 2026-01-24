@@ -3,19 +3,15 @@ class exercicio56 {
         if (intervals == null || intervals.length == 0) return new int[0][0];
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
         List<int[]> resp = new ArrayList<>();
-        int stt = intervals[0][0];
-        int end = intervals[0][1];
+        int[] prev = intervals[0];
         for (int i = 1; i < intervals.length; i++) {
-            int currStt = intervals[i][0];
-            int currEnd = intervals[i][1];
-            if (currStt <= end) end = Math.max(end, currEnd);
+            if (intervals[i][0] <= prev[1]) prev[1] = Math.max(prev[1], intervals[i][1]);
             else {
-                resp.add(new int[] { stt, end });
-                stt = currStt;
-                end = currEnd;
+                resp.add(prev);
+                prev = intervals[i];
             }
         }
-        resp.add(new int[] { stt, end });
+        resp.add(prev);
         return resp.toArray(new int[resp.size()][]);
     }
 }
