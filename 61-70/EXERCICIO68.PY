@@ -1,7 +1,7 @@
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         resp = []
-        i = 0
+        j = 0
         while i < len(words):
             lWords = []
             lLen = 0
