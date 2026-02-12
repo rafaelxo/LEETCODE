@@ -8,6 +8,6 @@ class exercicio104 {
         }
     }
     public int maxDepth(TreeNode root) {
-        getHeight(root);
+        return getHeight(root);
     }
 }
