@@ -3,6 +3,6 @@ func sortedArrayToBST(nums []int) *TreeNode {
     mid := len(nums) / 2
     root := &TreeNode{Val: nums[mid]}
     root.Left = sortedArrayToBST(nums[:mid])
-    root.Right = sortedArrayToBST(nums[mid+1:])
+    root.Right = sortedArrayToBST(nums[mid + 1:])
     return root
 }
