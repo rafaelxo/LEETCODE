@@ -1,4 +1,4 @@
-class Solution {
+class exercicio203 {
     public ListNode removeElements(ListNode head, int val) {
         ListNode resp = new ListNode(0);
         resp.next = head;
