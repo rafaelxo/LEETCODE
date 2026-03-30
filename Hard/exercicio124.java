@@ -1,4 +1,4 @@
-class Solution {
+class exercicio124 {
     private int sum = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
