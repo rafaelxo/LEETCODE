@@ -2,6 +2,7 @@ class Solution {
 public:
     unordered_map<int, int> inorderIndex;
     int idx = 0;
+    
     TreeNode* build(vector<int>& preorder, int left, int right) {
         if (left > right) return nullptr;
         int rootVal = preorder[idx++];
